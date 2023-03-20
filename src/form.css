@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100%;
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+  #myExpenses {
+    margin: 50px 0 0 10px;
+  }
+  input {
+    outline-color: #4b78f5;
+  }
+  

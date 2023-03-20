@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  form > div {
+    gap: 5px;
+    margin-left: 10px;
+  }
+  
+  #max input,
+  #min input {
+    width: 50px;
+  }
+  section {
+    height: 350px;
+    overflow-y: scroll;
+    margin-top: 20px;
+    flex: 1;
+  }
+  
+  section > div {
+    border-radius: 10px;
+  }
+  
+  select {
+    padding: 3px;
+  }
+  

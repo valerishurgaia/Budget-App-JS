@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+  }
+  form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 20px;
+  }
+  
+  #formUpper {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+  }
+  #lang {
+    height: 60%;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    padding: 0 8px;
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    padding: 14px 20px 16px;
+    outline-color: #4b78f5;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #285ff5;
+    padding: 10px 25px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-out;
+  }
+  
+  button:hover {
+    background-color: #4476ff;
+  }
+  
+  a {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #signUp,
+  #signIp {
+    margin: 0 auto;
+  }
+  #recover {
+    color: #343a40;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+  }
+  .recoverDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  h1 {
+    font-weight: 600;
+  }
+  p {
+    color: #979797;
+  }
+  
+  #fullName {
+    display: flex;
+    gap: 20px;
+  }
+  #locationTel {
+    display: flex;
+    gap: 10px;
+  }
+  #tel {
+    flex: 7;
+  }
+  #telValue {
+    flex: 1;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+    #formUpper {
+      width: 90%;
+      margin-top: 30px;
+    }
+  }
+  
